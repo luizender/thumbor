@@ -114,6 +114,7 @@ class Engine(BaseEngine):
             "BILINEAR": Image.BILINEAR,
             "BICUBIC": Image.BICUBIC,
             "HAMMING": Image.HAMMING,
+            "BOX": Image.BOX
         }
 
         return available.get(resample.upper(), Image.LANCZOS)

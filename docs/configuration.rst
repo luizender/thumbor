@@ -789,7 +789,7 @@ Example of Configuration File
    #PILLOW_JPEG_QTABLES = None
 
    ## Specify resampling filter for Pillow resize method.One of LANCZOS, NEAREST,
-   ## BILINEAR, BICUBIC, HAMMING (Pillow>=3.4.0).
+   ## BILINEAR, BICUBIC, HAMMING, BOX (Pillow>=3.4.0).
    ## Defaults to: 'LANCZOS'
    #PILLOW_RESAMPLING_FILTER = 'LANCZOS'
 

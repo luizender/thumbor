@@ -99,7 +99,7 @@ Config.define(
     "PILLOW_RESAMPLING_FILTER",
     "LANCZOS",
     "Specify resampling filter for Pillow resize method."
-    "One of LANCZOS, NEAREST, BILINEAR, BICUBIC, HAMMING (Pillow>=3.4.0).",
+    "One of LANCZOS, NEAREST, BILINEAR, BICUBIC, HAMMING, BOX (Pillow>=3.4.0).",
     "Imaging",
 )
 
